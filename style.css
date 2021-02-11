@@ -55,7 +55,7 @@ body {
 }
 
 .image{
-  height:25%;
+  height:80%;
   width: 100%;
   position: relative;
   margin-left: 0px;
@@ -76,6 +76,7 @@ body {
   margin-right: 10%;
   color: #000000F2;
   font-family : sans-serif;
+  animation: fontbulger 2s infinite;
   
  
 }
@@ -126,3 +127,19 @@ body {
 .body-content{
   padding: 0;
 }
+
+@keyframes fontbulger {
+  0% {
+    font-size: 10px;
+  }
+  50% {
+    font-size: 11px;
+    
+  }
+  100%{
+    font-size: 10px;
+  }
+}
+
+
+   
