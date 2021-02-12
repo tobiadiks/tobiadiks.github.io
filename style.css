@@ -4,19 +4,20 @@ body {
     margin:0px;
     height: 100%;
     width: 100%;
+    padding: 0px;
    }
 .head {
   font-size: 100%;
   color: #000;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 50%;
+  font-size: 100%;
   padding-bottom: 0;
 }
 .head1{
-  font-size: 100%;
+  
   color: #111D9BB0;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 70%;
+  font-size: 100%;
   padding-top: 0;
 }
 .header{
@@ -31,18 +32,19 @@ body {
   width: 100%;
   box-shadow: 0 3px 1px #DCDCDC;
   display: grid;
-  gap: 3px;
+  gap: 5%;
   grid-auto-flow: column;
+ 
 
   }
   
 
 .route{
   margin-top: 1px;
-  font-size: 10px;
+  font-size: 100%;
   align-items: right;
   display: grid;
-  gap: 0.3rem;
+  gap: 7%;
   grid-auto-flow: column;
   
 }
@@ -50,33 +52,35 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 350;
   color: #5C5C5C;
-  padding-top: 20px;
+  padding-top: 30px;
+  font-size: 55%;
   text-decoration: none;
 }
 
 .image{
-  height:80%;
+  height:auto;
   width: 100%;
-  position: relative;
   margin-left: 0px;
+  position: relative;
+  
   
 }
 .container{
   display: grid;
-  gap: 2rem;
+  gap: 5%;
   grid-auto-flow: row;
-  height: 80%;
+  height: 100%;
   width: 100%;
 }
 
 .word{
   text-align: left;
-  font-weight: 900;
+  font-size: 100%;
+  font-weight: 700;
   margin-left: 20px;
-  margin-right: 10%;
   color: #000000F2;
   font-family : sans-serif;
-  animation: fontbulger 2s infinite;
+  animation: fontbulger 4s infinite;
   
  
 }
@@ -86,21 +90,12 @@ body {
   margin-left: 20px;
   color: #4A4A4A;
   font-family: sans-serif;
-  font-size: 10px;
+  font-size: 90%;
   text-decoration: underline #111D9B7A;
-  padding-bottom: 20px;
+  padding-bottom: 5px;
+  line-height: 25px;
 }
 
-.boxed-note{
-  font-size: 10pt;
-  text-align: center;
-  border-left: 6px solid #75E21A;
- 
- 
-  box-shadow: 0px 1px 3px #75E21A;
-  color: #5C5C5C;
-  
-}
 .image-resize{
   height: 5em;
   width: 8em;
@@ -111,33 +106,53 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 450;
   color: #fff;
-  padding-top:20px;
   padding-left: 5px;
-  
   margin-right: 5px;
+  padding-top: 30px;
  
   text-decoration: none;
   background-color: #111D9BB0;
-  border-radius: 10rem 20rem;
+  border-radius: 0rem 0rem 20rem 10rem;
   box-shadow: 1px 1px 4px #ddd;
- justify-items: center;
+ 
+ height: 40%;
+ width:80%;
+ font-size: 40%;
  
 }
 
 .body-content{
   padding: 0;
+
+}
+
+.footer{
+  margin-top: 30%;
+  width: 100%;
+  background-color: #111D9BB0;
+  color : #fff;
+  font-family: monospace;
+  font-size: 70%;
+  font-weight: 350px;
+  
+}
+
+.fc{
+  text-align: center;
+  
+  
 }
 
 @keyframes fontbulger {
   0% {
-    font-size: 10px;
+    font-size: 90%;
   }
   50% {
-    font-size: 11px;
+    font-size: 100%;
     
   }
   100%{
-    font-size: 10px;
+    font-size: 90%;
   }
 }
 
