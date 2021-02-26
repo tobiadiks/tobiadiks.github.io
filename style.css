@@ -57,6 +57,18 @@ body {
   text-decoration: none;
 }
 
+.project_link{
+  font-weight: 350;
+  font-size: 90%;
+  text-align: left;
+  margin-left: 20px;
+  color: #4A4A4A;
+  font-family: sans-serif;
+  text-decoration: underline #111D9B7A;
+  padding-bottom: 5px;
+  line-height: 25px;
+}
+
 .image{
   height:auto;
   width: 100%;
