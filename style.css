@@ -2,7 +2,7 @@ body {
     font-size: 15pt;
     background-color: #fff;
     margin:0px;
-    height: 100%;
+    height: auto;
     width: 100%;
     padding: 0px;
    }
@@ -111,7 +111,6 @@ body {
 .image-resize{
   height: 5em;
   width: 8em;
-  margin-left: 4em;
 }
 
 .cto{
@@ -136,16 +135,40 @@ body {
 .body-content{
   padding: 0;
 
+
+}
+
+.body-content-center{
+
+}
+
+.forms{
+  flex: content;
+  flex-wrap: wrap;
+  margin-left: 50%;
+  font-size: 100%;
+  border: 1px solid  #111D9BB0;
+  padding: 3%;
+  width: auto;
+
+}
+
+.submit-btn{
+color:  #fff;
+background-color:  #111D9BB0;
+border: 0px;
+border-radius: 10px;
 }
 
 .footer{
-  margin-top: 30%;
+  margin-top: 100%;
   width: 100%;
   background-color: #111D9BB0;
   color : #fff;
   font-family: monospace;
   font-size: 70%;
   font-weight: 350px;
+
   
 }
 
